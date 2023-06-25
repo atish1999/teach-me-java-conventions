@@ -1,5 +1,6 @@
+package powerpackage;
+
 import org.junit.Test;
-import powerpackage.powerfinder;
 
 public class powertest {
     @Test
@@ -19,7 +20,7 @@ public class powertest {
     }
 
     @Test
-    public void power_of_2_and_3_Is_SIX() {
+    public void power_of_2_to_3_Is_NINE() {
         assert powerfinder.OF(3, 2) == 3*3;
     }
 }

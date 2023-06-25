@@ -1,11 +1,15 @@
 package powerpackage;
 
 public class powerfinder {
-    public static int OF(int xyz, int pqr) {
-        int p = 1;
-        for (int i = 0; i<pqr; i++) {
-            p *= xyz;
+    public static int OF(int number, int power) {
+        int result = 1;
+        for (int multiply = 0; multiply < power; multiply++) {
+            result = getProduct(number, result);
         }
-        return p;
+        return result;
+    }
+
+    private static int getProduct(int number, int result) {
+        return result * number;
     }
 }

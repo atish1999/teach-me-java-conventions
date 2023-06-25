@@ -1,4 +1,5 @@
 import org.junit.Test;
+import powerpackage.powerfinder;
 
 public class powertest {
     @Test

@@ -1,6 +1,3 @@
-package powerpackage;
-
-
 import org.junit.Test;
 
 public class powertest {
@@ -8,6 +5,7 @@ public class powertest {
     public void one_raised_to_one_is_onew() {
         assert powerfinder.OF(1,1) == 1;
     }
+
 
     @Test
     public void twoRaised_to_one_is_2() {
